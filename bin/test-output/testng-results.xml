@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[launching browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-07T18:31:01 IST" name="Default suite" finished-at="2022-07-07T18:31:12 IST" duration-ms="10945">
+    <groups>
+    </groups>
+    <test started-at="2022-07-07T18:31:01 IST" name="Default test" finished-at="2022-07-07T18:31:12 IST" duration-ms="10945">
+      <class name="kiteTest.ValidateKiteUserID">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:kiteTest.ValidateKiteUserID@1b7cc17c]" started-at="2022-07-07T18:31:01 IST" name="launchBrowser" finished-at="2022-07-07T18:31:08 IST" duration-ms="6687" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[launching browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToKiteApp()[pri:0, instance:kiteTest.ValidateKiteUserID@1b7cc17c]" started-at="2022-07-07T18:31:08 IST" name="loginToKiteApp" finished-at="2022-07-07T18:31:09 IST" duration-ms="1343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToKiteApp -->
+        <test-method signature="ValidateUserID()[pri:0, instance:kiteTest.ValidateKiteUserID@1b7cc17c]" started-at="2022-07-07T18:31:09 IST" name="ValidateUserID" finished-at="2022-07-07T18:31:11 IST" duration-ms="1489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateUserID -->
+        <test-method is-config="true" signature="logOutFromKite()[pri:0, instance:kiteTest.ValidateKiteUserID@1b7cc17c]" started-at="2022-07-07T18:31:11 IST" name="logOutFromKite" finished-at="2022-07-07T18:31:12 IST" duration-ms="1191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromKite -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:kiteTest.ValidateKiteUserID@1b7cc17c]" started-at="2022-07-07T18:31:12 IST" name="closeBrowser" finished-at="2022-07-07T18:31:12 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- kiteTest.ValidateKiteUserID -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
